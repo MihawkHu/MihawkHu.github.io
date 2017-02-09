@@ -1,18 +1,64 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset = UTF-8">
+    <meta name="description" content="mihawk hu">
+    <title>Mihawk Hu</title>
+    <link rel="icon" href="me.ico">
+    <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Tillana:500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+</head>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<body>
+    <div class="perspective">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+    </div>
+    <div class="base">
+        <canvas width="480rem" height="350rem"></canvas>
+        <h1><img src="images/portrait.jpg" width="75rem" height="75rem"/>Mihawk Hu</h1>
+        <div class="aboutme">
+            <h2>About me</h2>
+            <p>A sphomore at SEIEE, SJTU. Major in Computer Science.</p>
+            <p>Love life. Love programming. Love my girlfriend.</p>
+            <p>"To travel or read, either body or soul must be on the way."</p>
+        </div>
+    </div>
+    <div class="social">
+        <ul>
+            <li>
+                <a href="mailto:mihawkhu@gmail.com"><img src="images/gmail.png"></a>
+            </li>
+            <li>
+                <a href="https://github.com/MihawkHu"><img src="images/github.png"></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100010576992728"><img src="images/facebook.png"></a>
+            </li>
+            <li>
+                <a href="https://plus.google.com/u/0/110314046716530844651"> <img src="images/google.png"></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/Mihawk_Hu"><img src="images/twitter.png"> </a>
+            </li>
+        </ul>
+    </div>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+    <div class="copyright">
+        Mihawk Hu © 2016
+    </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+</body>
+
+</html>
