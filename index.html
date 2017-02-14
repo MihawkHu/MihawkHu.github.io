@@ -67,8 +67,6 @@
                         </div>
                     </div>
                 </div>
-                <!---start-click-drop-down-menu----->
-                <!----start-dropdown--->
                 <script type="text/javascript">
                     var $ = jQuery.noConflict();
                     $(function() {
@@ -84,9 +82,7 @@
                         });
                     });
                     $(document).ready(function() {
-                        //Hide (Collapse) the toggle containers on load
                         $(".toggle_container").hide();
-                        //Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
                         $(".trigger").click(function() {
                             $(this).toggleClass("active").next().slideToggle("slow");
                             return false; //Prevent the browser jump to the link anchor
@@ -94,7 +90,6 @@
 
                     });
                 </script>
-                <!---//End-click-drop-down-menu----->
                 <div class="clearfix"> </div>
             </div>
             <div class="banner-info text-center">
@@ -106,8 +101,7 @@
             </div>
         </div>
     </div>
-    <!--/header-banner-->
-    <!--about-->
+    
     <div class="about text-center" id="about">
         <div class="container">
             <h3>ABOUT ME</h3>
@@ -141,17 +135,6 @@
     </div>
     <!--//about-->
     <div class="about-back"></div>
-
-    <!-- <div class="footer-top"></div> -->
-    <!-- <div class="resume text-center">
-        <div class="container">
-            <div class="strip text-center">
-                <a href="#"><img src="images/down.png" alt=" " /></a>
-            </div>
-            <div class="down"><a href="#">Download My Resume</a></div>
-        </div>
-    </div> -->
-    <!--//resume--> -->
 
     <div class="footer">
         <div class="container">
